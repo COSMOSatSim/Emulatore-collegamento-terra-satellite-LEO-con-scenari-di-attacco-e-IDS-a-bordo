@@ -1,0 +1,2 @@
+scenarios/DF.yaml --variante piani/varianti/carico-finale.yaml --perdita 0.4 --seme 4051
+scenarios/DF.yaml --variante piani/varianti/carico-finale.yaml --perdita 0.4 --trasporto standard --seme 4051

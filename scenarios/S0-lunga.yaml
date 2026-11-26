@@ -1,0 +1,39 @@
+id: "S0-lunga"
+classe: "nessuna"
+ramo: "-"
+conoscenza: "-"
+topologia: "variante-a"
+ground_unit: 4
+punto_di_cattura: "co-residente"
+
+canale:
+  nome: "LEO"
+  ritardo_ms: 20.0
+  jitter_ms: 3.0
+  perdita_pct: 0.3
+  banda_mbit: 50.0
+
+trasporto:
+  nome: "P-BBR"
+  predefinito: "bbr"
+
+fasi:
+  avvio: 120
+  nominale: 900
+  quiete: 1800
+  attacco: 0
+  osservazione: 0
+  arresto: 60
+
+carico_nominale:
+  comandi_al_minuto: 12.0
+  variabilita: 0.25
+  durata_sessione_s: 150.0
+  variabilita_sessione: 0.4
+  pausa_fra_sessioni_s: 25.0
+
+attesi:
+  - "nessun allarme: ogni apertura è un falso positivo"
+  - "30 minuti di quiete, esposizione di almeno 31 minuti"
+  - "2 ripetizioni con BBR per la stima della dispersione"
+  - "riferimento del tasso di falsi positivi della serie"

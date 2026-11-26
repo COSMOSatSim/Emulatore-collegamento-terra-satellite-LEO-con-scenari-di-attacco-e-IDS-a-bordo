@@ -1,0 +1,72 @@
+scenarios/D1.yaml --rifai-profilo --variante piani/varianti/carico-finale.yaml --perdita 0.4 --seme 4001
+scenarios/SP-fuori-cono-ignota.yaml --variante piani/varianti/carico-finale.yaml --perdita 0.4 --seme 4002
+scenarios/S0.yaml --variante piani/varianti/carico-finale.yaml --perdita 0.4 --seme 4003
+scenarios/S0-lunga.yaml --variante piani/varianti/carico-finale.yaml --perdita 0.4 --seme 4004
+scenarios/D2.yaml --variante piani/varianti/carico-finale.yaml --perdita 0.4 --seme 4005
+scenarios/D3.yaml --variante piani/varianti/carico-finale.yaml --perdita 0.4 --seme 4006
+scenarios/D4.yaml --variante piani/varianti/carico-finale.yaml --perdita 0.4 --seme 4007
+scenarios/SP.yaml --variante piani/varianti/carico-finale.yaml --perdita 0.4 --seme 4008
+scenarios/SP-E.yaml --variante piani/varianti/carico-finale.yaml --perdita 0.4 --seme 4009
+scenarios/SP-E.yaml --variante piani/varianti/carico-finale.yaml --perdita 0.4 --seme 4010
+scenarios/RP-E.yaml --variante piani/varianti/carico-finale.yaml --perdita 0.4 --seme 4011
+scenarios/RP-E.yaml --variante piani/varianti/carico-finale.yaml --perdita 0.4 --seme 4012
+scenarios/MI.yaml --variante piani/varianti/carico-finale.yaml --perdita 0.4 --seme 4013
+scenarios/MI-E.yaml --variante piani/varianti/carico-finale.yaml --perdita 0.4 --seme 4014
+scenarios/MD.yaml --variante piani/varianti/carico-finale.yaml --perdita 0.4 --seme 4015
+scenarios/MD.yaml --variante piani/varianti/carico-finale.yaml --perdita 0.4 --seme 4016
+
+scenarios/D1.yaml --rifai-profilo --variante piani/varianti/carico-finale.yaml --perdita 0.4 --trasporto standard --seme 4001
+scenarios/SP-fuori-cono-ignota.yaml --variante piani/varianti/carico-finale.yaml --perdita 0.4 --trasporto standard --seme 4002
+scenarios/S0.yaml --variante piani/varianti/carico-finale.yaml --perdita 0.4 --trasporto standard --seme 4003
+scenarios/S0-lunga.yaml --variante piani/varianti/carico-finale.yaml --perdita 0.4 --trasporto standard --seme 4004
+scenarios/D2.yaml --variante piani/varianti/carico-finale.yaml --perdita 0.4 --trasporto standard --seme 4005
+scenarios/D3.yaml --variante piani/varianti/carico-finale.yaml --perdita 0.4 --trasporto standard --seme 4006
+scenarios/D4.yaml --variante piani/varianti/carico-finale.yaml --perdita 0.4 --trasporto standard --seme 4007
+scenarios/SP.yaml --variante piani/varianti/carico-finale.yaml --perdita 0.4 --trasporto standard --seme 4008
+scenarios/SP-E.yaml --variante piani/varianti/carico-finale.yaml --perdita 0.4 --trasporto standard --seme 4009
+scenarios/SP-E.yaml --variante piani/varianti/carico-finale.yaml --perdita 0.4 --trasporto standard --seme 4010
+scenarios/RP-E.yaml --variante piani/varianti/carico-finale.yaml --perdita 0.4 --trasporto standard --seme 4011
+scenarios/RP-E.yaml --variante piani/varianti/carico-finale.yaml --perdita 0.4 --trasporto standard --seme 4012
+scenarios/MI.yaml --variante piani/varianti/carico-finale.yaml --perdita 0.4 --trasporto standard --seme 4013
+scenarios/MI-E.yaml --variante piani/varianti/carico-finale.yaml --perdita 0.4 --trasporto standard --seme 4014
+scenarios/MD.yaml --variante piani/varianti/carico-finale.yaml --perdita 0.4 --trasporto standard --seme 4015
+scenarios/MD.yaml --variante piani/varianti/carico-finale.yaml --perdita 0.4 --trasporto standard --seme 4016
+
+scenarios/D1.yaml --rifai-profilo --variante piani/varianti/carico-finale.yaml --perdita 1 --seme 4021
+scenarios/S0-lunga.yaml --variante piani/varianti/carico-finale.yaml --perdita 1 --seme 4022
+scenarios/SP.yaml --variante piani/varianti/carico-finale.yaml --perdita 1 --seme 4023
+scenarios/D2.yaml --variante piani/varianti/carico-finale.yaml --perdita 1 --seme 4024
+scenarios/D1.yaml --rifai-profilo --variante piani/varianti/carico-finale.yaml --perdita 1 --trasporto standard --seme 4021
+scenarios/S0-lunga.yaml --variante piani/varianti/carico-finale.yaml --perdita 1 --trasporto standard --seme 4022
+scenarios/SP.yaml --variante piani/varianti/carico-finale.yaml --perdita 1 --trasporto standard --seme 4023
+scenarios/D2.yaml --variante piani/varianti/carico-finale.yaml --perdita 1 --trasporto standard --seme 4024
+
+scenarios/D1.yaml --rifai-profilo --variante piani/varianti/carico-finale.yaml --perdita 2 --seme 4031
+scenarios/S0-lunga.yaml --variante piani/varianti/carico-finale.yaml --perdita 2 --seme 4032
+scenarios/SP.yaml --variante piani/varianti/carico-finale.yaml --perdita 2 --seme 4033
+scenarios/D2.yaml --variante piani/varianti/carico-finale.yaml --perdita 2 --seme 4034
+scenarios/D1.yaml --rifai-profilo --variante piani/varianti/carico-finale.yaml --perdita 2 --trasporto standard --seme 4031
+scenarios/S0-lunga.yaml --variante piani/varianti/carico-finale.yaml --perdita 2 --trasporto standard --seme 4032
+scenarios/SP.yaml --variante piani/varianti/carico-finale.yaml --perdita 2 --trasporto standard --seme 4033
+scenarios/D2.yaml --variante piani/varianti/carico-finale.yaml --perdita 2 --trasporto standard --seme 4034
+
+scenarios/D1.yaml --rifai-profilo --variante piani/varianti/carico-finale.yaml --perdita 4 --seme 4041
+scenarios/S0-lunga.yaml --variante piani/varianti/carico-finale.yaml --perdita 4 --seme 4042
+scenarios/SP.yaml --variante piani/varianti/carico-finale.yaml --perdita 4 --seme 4043
+scenarios/D2.yaml --variante piani/varianti/carico-finale.yaml --perdita 4 --seme 4044
+scenarios/D1.yaml --rifai-profilo --variante piani/varianti/carico-finale.yaml --perdita 4 --trasporto standard --seme 4041
+scenarios/S0-lunga.yaml --variante piani/varianti/carico-finale.yaml --perdita 4 --trasporto standard --seme 4042
+scenarios/SP.yaml --variante piani/varianti/carico-finale.yaml --perdita 4 --trasporto standard --seme 4043
+scenarios/D2.yaml --variante piani/varianti/carico-finale.yaml --perdita 4 --trasporto standard --seme 4044
+
+scenarios/D1.yaml --rifai-profilo --variante piani/varianti/carico-finale.yaml --variante piani/varianti/riconfigurazione.yaml --perdita 0.4 --seme 4061
+scenarios/S0-lunga.yaml --variante piani/varianti/carico-finale.yaml --variante piani/varianti/riconfigurazione.yaml --perdita 0.4 --seme 4062
+scenarios/SP.yaml --variante piani/varianti/carico-finale.yaml --variante piani/varianti/riconfigurazione.yaml --perdita 0.4 --seme 4063
+scenarios/D2.yaml --variante piani/varianti/carico-finale.yaml --variante piani/varianti/riconfigurazione.yaml --perdita 0.4 --seme 4064
+scenarios/D1.yaml --rifai-profilo --variante piani/varianti/carico-finale.yaml --variante piani/varianti/riconfigurazione.yaml --perdita 0.4 --trasporto standard --seme 4061
+scenarios/S0-lunga.yaml --variante piani/varianti/carico-finale.yaml --variante piani/varianti/riconfigurazione.yaml --perdita 0.4 --trasporto standard --seme 4062
+scenarios/SP.yaml --variante piani/varianti/carico-finale.yaml --variante piani/varianti/riconfigurazione.yaml --perdita 0.4 --trasporto standard --seme 4063
+scenarios/D2.yaml --variante piani/varianti/carico-finale.yaml --variante piani/varianti/riconfigurazione.yaml --perdita 0.4 --trasporto standard --seme 4064
+
+scenarios/DF.yaml --variante piani/varianti/carico-finale.yaml --perdita 0.4 --seme 4051
+scenarios/DF.yaml --variante piani/varianti/carico-finale.yaml --perdita 0.4 --trasporto standard --seme 4051

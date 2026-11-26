@@ -1,0 +1,41 @@
+id: "D2-P"
+classe: "esaurimento-risorse"
+ramo: "comandi"
+conoscenza: "informata"
+pazienza: 4.0
+topologia: "variante-a"
+ground_unit: 4
+punto_di_cattura: "co-residente"
+
+canale:
+  nome: "LEO"
+  ritardo_ms: 20.0
+  jitter_ms: 3.0
+  perdita_pct: 0.3
+  banda_mbit: 50.0
+
+trasporto:
+  nome: "P-BBR"
+  predefinito: "bbr"
+
+fasi:
+  avvio: 120
+  nominale: 900
+  quiete: 120
+  attacco: 1200
+  osservazione: 180
+  arresto: 60
+
+carico_nominale:
+  comandi_al_minuto: 12.0
+  variabilita: 0.25
+  durata_sessione_s: 150.0
+  variabilita_sessione: 0.4
+  pausa_fra_sessioni_s: 25.0
+
+attesi:
+  - "comandi_s entro il profilo o appena sopra"
+  - "sessioni_aperte sopra il profilo per le 4 sessioni dell'attaccante"
+  - "crescita lenta o assente di cpu_pct e coda_ms"
+  - "rilevazione dipendente dal ritmo dell'attacco"
+  - "confronto con D2: stesso canale e carico, attacco di 1200 s"

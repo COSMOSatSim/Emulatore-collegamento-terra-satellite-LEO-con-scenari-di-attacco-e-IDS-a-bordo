@@ -1,0 +1,4 @@
+suffisso: "RTT-U"
+canale:
+  andamento_rtt: "u"
+  ritardo_ai_bordi_ms: 35.0

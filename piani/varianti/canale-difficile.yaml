@@ -1,0 +1,12 @@
+suffisso: "C2"
+canali_per_nodo:
+  ground1:
+    ritardo_ms: 18.0
+  ground2:
+    ritardo_ms: 22.0
+  ground3:
+    ritardo_ms: 26.0
+  ground4:
+    ritardo_ms: 30.0
+  attacker:
+    ritardo_ms: 22.0

@@ -1,0 +1,39 @@
+id: "SP-E"
+classe: "falsificazione-identita"
+ramo: "identita-presa-in-prestito"
+conoscenza: "esplorativa"
+topologia: "variante-a"
+ground_unit: 4
+punto_di_cattura: "co-residente"
+
+canale:
+  nome: "LEO"
+  ritardo_ms: 20.0
+  jitter_ms: 3.0
+  perdita_pct: 0.3
+  banda_mbit: 50.0
+
+trasporto:
+  nome: "P-BBR"
+  predefinito: "bbr"
+
+fasi:
+  avvio: 120
+  nominale: 900
+  quiete: 120
+  attacco: 480
+  osservazione: 180
+  arresto: 60
+
+carico_nominale:
+  comandi_al_minuto: 12.0
+  variabilita: 0.25
+  durata_sessione_s: 150.0
+  variabilita_sessione: 0.4
+  pausa_fra_sessioni_s: 25.0
+
+attesi:
+  - "stessa identità da 2 origini: identita-condivisa, identita-di-altri, identita-cambiata"
+  - "sondaggio con software e sconosciuto: fuori-catalogo nella ricognizione"
+  - "salti_sequenza con comandi ripetuti"
+  - "volume in aumento: ritmo aggregato dall'ascolto, più fitto di una stazione"

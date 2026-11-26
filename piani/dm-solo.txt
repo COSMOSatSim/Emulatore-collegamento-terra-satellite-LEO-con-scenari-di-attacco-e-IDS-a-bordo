@@ -1,0 +1,1 @@
+scenarios/DM.yaml --variante piani/varianti/carico-finale.yaml --perdita 0.4 --seme 4143

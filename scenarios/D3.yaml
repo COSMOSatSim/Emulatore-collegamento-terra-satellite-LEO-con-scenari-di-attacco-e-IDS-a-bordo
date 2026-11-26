@@ -1,0 +1,40 @@
+id: "D3"
+classe: "esaurimento-risorse"
+ramo: "memoria"
+conoscenza: "informata"
+topologia: "variante-a"
+ground_unit: 4
+punto_di_cattura: "co-residente"
+
+canale:
+  nome: "LEO"
+  ritardo_ms: 20.0
+  jitter_ms: 3.0
+  perdita_pct: 0.3
+  banda_mbit: 50.0
+
+trasporto:
+  nome: "P-BBR"
+  predefinito: "bbr"
+
+fasi:
+  avvio: 120
+  nominale: 900
+  quiete: 120
+  attacco: 480
+  osservazione: 180
+  arresto: 60
+
+carico_nominale:
+  comandi_al_minuto: 12.0
+  variabilita: 0.25
+  durata_sessione_s: 150.0
+  variabilita_sessione: 0.4
+  pausa_fra_sessioni_s: 25.0
+
+attesi:
+  - "disco_libero_mb in calo costante: disco_in_calo da 10 cali consecutivi"
+  - "dim_media e dim_massima sopra il profilo dal primo blocco"
+  - "nessun comando fuori catalogo: nessuna fase esplorativa"
+  - "confronto con D3-E: contributo della ricognizione"
+  - "deviazione-bordo prima che in D3-E"

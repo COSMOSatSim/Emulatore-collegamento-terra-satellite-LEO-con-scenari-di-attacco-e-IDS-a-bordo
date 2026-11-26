@@ -1,0 +1,4 @@
+suffisso: "RTT-V"
+canale:
+  andamento_rtt: "v"
+  ritardo_ai_bordi_ms: 35.0

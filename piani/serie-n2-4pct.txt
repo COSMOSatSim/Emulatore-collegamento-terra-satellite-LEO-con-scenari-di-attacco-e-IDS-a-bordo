@@ -1,0 +1,4 @@
+scenarios/D3.yaml --variante piani/varianti/carico-finale.yaml --perdita 4 --seme 4046
+scenarios/D3.yaml --variante piani/varianti/carico-finale.yaml --perdita 4 --trasporto standard --seme 4046
+scenarios/DF.yaml --variante piani/varianti/carico-finale.yaml --perdita 4 --seme 4045
+scenarios/DF.yaml --variante piani/varianti/carico-finale.yaml --perdita 4 --trasporto standard --seme 4045

@@ -1,0 +1,41 @@
+id: "RP-E"
+classe: "falsificazione-identita"
+ramo: "replay-telecomandi"
+conoscenza: "esplorativa"
+topologia: "variante-a"
+ground_unit: 4
+punto_di_cattura: "co-residente"
+
+canale:
+  nome: "LEO"
+  ritardo_ms: 20.0
+  jitter_ms: 3.0
+  perdita_pct: 0.4
+  banda_mbit: 50.0
+
+trasporto:
+  nome: "P-BBR"
+  predefinito: "bbr"
+
+fasi:
+  avvio: 120
+  nominale: 900
+  quiete: 120
+  attacco: 480
+  osservazione: 180
+  arresto: 60
+
+carico_nominale:
+  comandi_al_minuto: 12.0
+  variabilita: 0.25
+  durata_sessione_s: 150.0
+  variabilita_sessione: 0.4
+  pausa_fra_sessioni_s: 25.0
+
+attesi:
+  - "salti_sequenza per l'origine dell'attaccante: numeri già osservati"
+  - "nessuna identità dichiarata: conteggio delle origini a zero"
+  - "nessun comando fuori catalogo, ricognizione compresa"
+  - "dimensioni entro il profilo, comandi_s a tratti oltre per il ritmo aggregato"
+  - "30 pacchetti raccolti dall'ascolto, entro il tetto di 90 s"
+  - "allarme dal segnale di sequenza, interlocutore nuovo sotto soglia"

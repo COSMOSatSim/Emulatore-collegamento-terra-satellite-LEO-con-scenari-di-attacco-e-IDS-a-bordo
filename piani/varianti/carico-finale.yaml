@@ -1,0 +1,22 @@
+suffisso: "CF"
+carico_nominale:
+  telemetria_kb: 16384
+  telemetria_ogni_s: 120.0
+carico_per_stazione:
+  ground1:
+    comandi_al_minuto: 6.0
+    telemetria_kb: 16384
+    telemetria_ogni_s: 120.0
+  ground2:
+    comandi_al_minuto: 10.0
+    telemetria_kb: 8192
+    telemetria_ogni_s: 180.0
+  ground3:
+    comandi_al_minuto: 14.0
+    durata_sessione_s: 600.0
+    telemetria_kb: 32768
+    telemetria_ogni_s: 240.0
+  ground4:
+    comandi_al_minuto: 20.0
+    telemetria_kb: 16384
+    telemetria_ogni_s: 360.0

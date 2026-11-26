@@ -1,0 +1,4 @@
+scenarios/VL.yaml --variante piani/varianti/carico-finale.yaml --variante piani/varianti/identita-niente.yaml --perdita 0.4 --seme 4119
+scenarios/VL.yaml --variante piani/varianti/carico-finale.yaml --variante piani/varianti/identita-niente.yaml --perdita 0.4 --seme 4120
+scenarios/VL.yaml --variante piani/varianti/carico-finale.yaml --variante piani/varianti/identita-niente.yaml --variante piani/varianti/imita-aggregata.yaml --perdita 0.4 --seme 4119
+scenarios/VL.yaml --variante piani/varianti/carico-finale.yaml --variante piani/varianti/identita-niente.yaml --variante piani/varianti/imita-aggregata.yaml --perdita 0.4 --seme 4120

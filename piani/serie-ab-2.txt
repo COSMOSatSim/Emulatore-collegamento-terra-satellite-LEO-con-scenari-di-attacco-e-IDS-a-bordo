@@ -1,0 +1,11 @@
+scenarios/VL.yaml --variante piani/varianti/carico-finale.yaml --perdita 0.4 --seme 4113
+scenarios/VL.yaml --variante piani/varianti/carico-finale.yaml --perdita 0.4 --seme 4114
+
+scenarios/AD.yaml --variante piani/varianti/carico-finale.yaml --variante piani/varianti/identita-niente.yaml --perdita 0.4 --seme 4115
+scenarios/AD.yaml --variante piani/varianti/carico-finale.yaml --variante piani/varianti/identita-niente.yaml --perdita 0.4 --seme 4116
+
+scenarios/D1.yaml --variante piani/varianti/carico-finale.yaml --perdita 0.4 --seme 4117
+scenarios/D1.yaml --variante piani/varianti/carico-finale.yaml --variante piani/varianti/identita-rubata.yaml --perdita 0.4 --seme 4117
+
+scenarios/MD.yaml --variante piani/varianti/carico-finale.yaml --perdita 0.4 --seme 4118
+scenarios/MD.yaml --variante piani/varianti/carico-finale.yaml --variante piani/varianti/imita-una-stazione.yaml --perdita 0.4 --seme 4118

@@ -1,0 +1,3 @@
+scenarios/S0-lunga.yaml --variante piani/varianti/carico-finale.yaml --variante piani/varianti/riconfigurazione.yaml --perdita 0.4 --seme 4062
+scenarios/D2.yaml --variante piani/varianti/carico-finale.yaml --variante piani/varianti/riconfigurazione.yaml --perdita 0.4 --seme 4064
+scenarios/D2.yaml --variante piani/varianti/carico-finale.yaml --variante piani/varianti/riconfigurazione.yaml --perdita 0.4 --trasporto standard --seme 4064

@@ -1,0 +1,61 @@
+id: "S0-visibilita"
+classe: "nessuna"
+ramo: "-"
+conoscenza: "-"
+topologia: "variante-a"
+ground_unit: 4
+punto_di_cattura: "co-residente"
+
+canale:
+  nome: "LEO"
+  ritardo_ms: 20.0
+  jitter_ms: 3.0
+  perdita_pct: 0.3
+  banda_mbit: 50.0
+
+trasporto:
+  nome: "P-BBR"
+  predefinito: "bbr"
+
+fasi:
+  avvio: 120
+  nominale: 900
+  quiete: 1800
+  attacco: 0
+  osservazione: 0
+  arresto: 60
+
+visibilita:
+  ground1:
+    - [0, 400]
+    - [520, 960]
+    - [1300, 1700]
+    - [1900, 2300]
+  ground2:
+    - [100, 500]
+    - [620, 1060]
+    - [1400, 1800]
+    - [2000, 2400]
+  ground3:
+    - [200, 600]
+    - [720, 1160]
+    - [1500, 1900]
+    - [2100, 2500]
+  ground4:
+    - [300, 700]
+    - [820, 1260]
+    - [1600, 2000]
+    - [2200, 2600]
+
+carico_nominale:
+  comandi_al_minuto: 12.0
+  variabilita: 0.25
+  durata_sessione_s: 150.0
+  variabilita_sessione: 0.4
+  pausa_fra_sessioni_s: 25.0
+
+attesi:
+  - "nessun allarme: ogni apertura è un falso positivo"
+  - "nessun contributo della geometria, bordi delle finestre compresi"
+  - "assenze sfasate delle 4 stazioni, cali ignorati dai rivelatori"
+  - "costo dell'IDS a riposo entro il budget"

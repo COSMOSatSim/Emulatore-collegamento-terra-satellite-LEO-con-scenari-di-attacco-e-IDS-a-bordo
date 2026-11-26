@@ -1,0 +1,15 @@
+scenarios/S0-lunga.yaml --variante piani/varianti/carico-finale.yaml --perdita 0.4 --seme 4121
+scenarios/S0-lunga.yaml --variante piani/varianti/carico-finale.yaml --perdita 0.4 --seme 4122
+
+scenarios/RI.yaml --variante piani/varianti/carico-finale.yaml --perdita 0.4 --seme 4123
+scenarios/RI.yaml --variante piani/varianti/carico-finale.yaml --perdita 0.4 --seme 4124
+
+scenarios/RI.yaml --variante piani/varianti/carico-finale.yaml --variante piani/varianti/raffiche-ravvicinate.yaml --perdita 0.4 --seme 4125
+scenarios/RI.yaml --variante piani/varianti/carico-finale.yaml --variante piani/varianti/raffiche-ravvicinate.yaml --perdita 0.4 --seme 4126
+
+scenarios/RI.yaml --variante piani/varianti/carico-finale.yaml --variante piani/varianti/raffiche-a-un-secondo.yaml --perdita 0.4 --seme 4127
+scenarios/RI.yaml --variante piani/varianti/carico-finale.yaml --variante piani/varianti/raffiche-a-un-secondo.yaml --perdita 0.4 --seme 4128
+
+scenarios/D1.yaml --variante piani/varianti/carico-finale.yaml --perdita 0.4 --seme 4129
+scenarios/MD.yaml --variante piani/varianti/carico-finale.yaml --perdita 0.4 --seme 4130
+scenarios/SP.yaml --variante piani/varianti/carico-finale.yaml --perdita 0.4 --seme 4131

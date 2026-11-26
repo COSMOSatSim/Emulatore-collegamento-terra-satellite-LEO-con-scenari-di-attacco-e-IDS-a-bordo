@@ -1,0 +1,42 @@
+id: "MD-E"
+classe: "iniezione-software"
+ramo: "verifica-e-modifica"
+conoscenza: "esplorativa"
+topologia: "variante-a"
+ground_unit: 4
+punto_di_cattura: "co-residente"
+
+canale:
+  nome: "LEO"
+  ritardo_ms: 20.0
+  jitter_ms: 3.0
+  perdita_pct: 0.4
+  banda_mbit: 50.0
+
+trasporto:
+  nome: "P-BBR"
+  predefinito: "bbr"
+
+fasi:
+  avvio: 120
+  nominale: 900
+  quiete: 120
+  attacco: 480
+  osservazione: 300
+  arresto: 60
+
+carico_nominale:
+  comandi_al_minuto: 12.0
+  variabilita: 0.25
+  durata_sessione_s: 150.0
+  variabilita_sessione: 0.4
+  pausa_fra_sessioni_s: 25.0
+
+attesi:
+  - "comando di verifica assente dalla fase nominale per ogni origine"
+  - "dim_media e dim_massima sopra il profilo solo alla scrittura da 512 byte"
+  - "tre scritture da 8, 8 e 512 byte: disco_libero_mb invariato"
+  - "attivazione solo dal software del sondaggio, nessuna nella coda"
+  - "grammatica supera da sola la soglia già nel sondaggio"
+  - "confronto con MI-E a pari perdita: contributo del volume"
+  - "confronto con MD: costo della ricognizione"

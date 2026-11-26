@@ -1,0 +1,1 @@
+scenarios/DF.yaml --variante piani/varianti/carico-finale.yaml --perdita 4 --trasporto standard --seme 4045

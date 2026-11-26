@@ -1,0 +1,22 @@
+scenarios/SP.yaml --rifai-profilo --variante piani/varianti/carico-finale.yaml --perdita 0.4 --seme 4101
+scenarios/SP.yaml --variante piani/varianti/carico-finale.yaml --variante piani/varianti/identita-rubata.yaml --perdita 0.4 --seme 4101
+
+scenarios/D2.yaml --variante piani/varianti/carico-finale.yaml --perdita 0.4 --seme 4102
+scenarios/D2.yaml --variante piani/varianti/carico-finale.yaml --variante piani/varianti/imita-una-stazione.yaml --perdita 0.4 --seme 4102
+
+scenarios/MD.yaml --variante piani/varianti/carico-finale.yaml --perdita 0.4 --seme 4103
+scenarios/MD.yaml --variante piani/varianti/carico-finale.yaml --variante piani/varianti/sessioni-a-raffiche.yaml --perdita 0.4 --seme 4103
+
+scenarios/D1.yaml --variante piani/varianti/carico-finale.yaml --perdita 0.4 --seme 4104
+scenarios/D1.yaml --variante piani/varianti/carico-finale.yaml --variante piani/varianti/jitter-come-il-carico.yaml --perdita 0.4 --seme 4104
+
+scenarios/RP-E.yaml --variante piani/varianti/carico-finale.yaml --perdita 0.4 --seme 4105
+scenarios/RP-E.yaml --variante piani/varianti/carico-finale.yaml --perdita 0.4 --seme 4106
+
+scenarios/VL.yaml --variante piani/varianti/carico-finale.yaml --perdita 0.4 --seme 4107
+scenarios/VL.yaml --variante piani/varianti/carico-finale.yaml --perdita 0.4 --seme 4108
+scenarios/AD.yaml --variante piani/varianti/carico-finale.yaml --perdita 0.4 --seme 4109
+scenarios/AD.yaml --variante piani/varianti/carico-finale.yaml --perdita 0.4 --seme 4110
+scenarios/DM.yaml --variante piani/varianti/carico-finale.yaml --perdita 0.4 --seme 4111
+
+scenarios/S0-lunga.yaml --variante piani/varianti/carico-finale.yaml --perdita 0.4 --seme 4112

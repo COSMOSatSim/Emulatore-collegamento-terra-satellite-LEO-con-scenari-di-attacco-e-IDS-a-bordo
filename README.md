@@ -1,0 +1,1 @@
+Repository del Tirocinio "Emulatore del collegamento terra-satellite LEO, con scenari di attacco e rivelatore di intrusioni a bordo" Laurea Triennale in Informatica alla Sapienza, anno accademico 2025/26, matricola 2150214.

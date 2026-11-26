@@ -1,0 +1,4 @@
+suffisso: "RC"
+canale:
+  riconfigurazione_s: 900.0
+  riconfigurazione_ritardo_max_ms: 30.0

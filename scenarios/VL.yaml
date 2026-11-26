@@ -1,0 +1,45 @@
+id: "VL"
+classe: "falsificazione-identita"
+ramo: "vocabolario-legittimo"
+conoscenza: "informata"
+topologia: "variante-a"
+ground_unit: 4
+punto_di_cattura: "co-residente"
+
+identita_dichiarata: "rubata"
+imita: "una-stazione"
+dimensione_comandi: "dal-carico"
+forma_sessioni: "a-raffiche"
+jitter: "come-il-carico"
+
+canale:
+  nome: "LEO"
+  ritardo_ms: 20.0
+  jitter_ms: 3.0
+  perdita_pct: 0.4
+  banda_mbit: 50.0
+
+trasporto:
+  nome: "P-BBR"
+  predefinito: "bbr"
+
+fasi:
+  avvio: 120
+  nominale: 900
+  quiete: 120
+  attacco: 480
+  osservazione: 300
+  arresto: 60
+
+carico_nominale:
+  comandi_al_minuto: 12.0
+  variabilita: 0.25
+  durata_sessione_s: 150.0
+  variabilita_sessione: 0.4
+  pausa_fra_sessioni_s: 25.0
+
+attesi:
+  - "nessun fuori-catalogo solo con telemetria nel carico nominale"
+  - "dimensione dal carico, ma sessioni più brevi e ritmo non sempre imitato"
+  - "identita-di-altri e identita-condivisa netti, la seconda anche sulla vittima"
+  - "rilevata dall'identità rubata: confronto con MI e MD non isola il vocabolario"
